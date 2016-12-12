@@ -5,6 +5,10 @@
 	<artifactId>ejb3-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
+	
+	<properties>
+        <version.maven.war.plugin>2.6</version.maven.war.plugin>
+    </properties>
 
 	<dependencies>
 		<!-- Main library JavaEE-API -->
